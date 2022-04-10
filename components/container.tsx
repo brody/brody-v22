@@ -112,7 +112,7 @@ export default function Container(props) {
       </div> */}
       <main id='skip' className='flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900'>
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   );

@@ -6,7 +6,7 @@ import Nav from '../components/nav';
 export default function Layout({ children }) {
   return (
     <div className='flex flex-col w-full h-full min-h-screen lg:flex-row lg:relative bg-zinc-50 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-300'>
-      <Head></Head>
+      {/* <Head></Head> */}
       <Nav />
 
       <div
