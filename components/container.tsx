@@ -44,7 +44,7 @@ export default function Container(props) {
   };
 
   return (
-    <div className='bg-gray-50 dark:bg-gray-900'>
+    <div className='bg-gray-900'>
       <Head>
         <title>{meta.title}</title>
         <meta name='robots' content='follow, index' />
@@ -110,7 +110,7 @@ export default function Container(props) {
           </button>
         </nav>
       </div> */}
-      <main id='skip' className='flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900'>
+      <main id='skip' className='flex flex-col justify-center px-8 bg-gray-900'>
         {children}
         {/* <Footer /> */}
       </main>
