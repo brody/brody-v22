@@ -42,7 +42,7 @@ export default function Nav() {
         </Link>
         <ul className='flex items-center flex-hori lg:flex-col lg:items-stretch'>
           {mainpages.map((page) => (
-            <>
+            <li key={page.name}>
               <Link href={page.href}>
                 <a
                   className={`items-center hidden px-3 py-1 rounded-lg md:flex flex-vert lg:px-4 hover:bg-neutral-800 ${
@@ -60,13 +60,13 @@ export default function Nav() {
                   {page.name}
                 </a>
               </Link>
-            </>
+            </li>
           ))}
         </ul>
       </div>
       <ul className='items-center hidden lg:flex flex-hori lg:flex-col lg:items-stretch'>
         {otherpages.map((page) => (
-          <>
+          <li key={page.name}>
             <Link href={page.href}>
               <a
                 className={`items-center hidden px-3 py-1 rounded-lg md:flex flex-vert lg:px-4 hover:bg-neutral-800 ${
@@ -82,7 +82,7 @@ export default function Nav() {
                 {page.name}
               </a>
             </Link>
-          </>
+          </li>
         ))}
       </ul>
     </nav>
