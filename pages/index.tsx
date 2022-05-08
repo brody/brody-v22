@@ -37,7 +37,7 @@ export default function Home() {
     <>
       <section className='mb-20 intro'>
         <h1 className='mb-3'>
-          G'day, I’m Brody MacLean, a multi-disciplinary designer working remotely from Sydney, Australia.
+          G&apos;day, I’m Brody MacLean, a multi-disciplinary designer working remotely from Sydney, Australia.
         </h1>
         <p className='mb-8 text-lg text-neutral-400'>
           <span className='mr-2'>Currently, I am Design System Lead at</span>

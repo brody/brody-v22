@@ -8,7 +8,7 @@ interface Props {
   // href: string;
 }
 
-const Button: React.FC<Props> = ({ children, href }) => {
+const Button: React.FC<Props> = ({ children }) => {
   return (
     <button
       // href={href}
