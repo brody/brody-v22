@@ -55,11 +55,11 @@ function AnimatedBars() {
   }, []);
 
   return (
-    <div className='flex items-end justify-between w-4 h-4  px-0.5 pb-0.5 overflow-hidden'>
+    <span className='flex items-end justify-between w-4 h-4  px-0.5 pb-0.5 overflow-hidden'>
       <span id='bar1' className='w-0.5 h-2 bg-indigo-500 opacity-75 rounded' />
       <span id='bar2' className='w-0.5 h-1 bg-indigo-500 rounded' />
       <span id='bar3' className='w-0.5 h-3 bg-indigo-500 opacity-80 rounded' />
-    </div>
+    </span>
   );
 }
 

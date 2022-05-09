@@ -65,23 +65,23 @@ export default function Home() {
         </p>
         <p className='mb-8 '>
           Previously I built design systems for{' '}
-          <a href='#' className='link'>
+          <a href='https://www.deputy.com/' className='link' target='_blank' rel='noreferrer'>
             Deputy
           </a>{' '}
           &{' '}
-          <a href='#' className='link'>
+          <a href='https://jobadder.com/' className='link' target='_blank' rel='noreferrer'>
             JobAdder
           </a>
           , as well as designed products for{' '}
-          <a href='#' className='link'>
+          <a href='https://safetyculture.com/' className='link' target='_blank' rel='noreferrer'>
             SafetyCulture
           </a>
           ,{' '}
-          <a href='#' className='link'>
+          <a href='https://www.hudl.com/' className='link' target='_blank' rel='noreferrer'>
             Hudl
           </a>{' '}
           and{' '}
-          <a href='#' className='link'>
+          <a href='https://www.farifaxmedia.com.au/' className='link' target='_blank' rel='noreferrer'>
             Fairfax Media
           </a>
           .
